@@ -1,0 +1,140 @@
+@media screen and (max-width: 991px) {
+  .container {
+    padding: var(--padding-inline-section);
+  }
+  .nav-toggle {
+    display: block;
+    padding-right: 20px;
+  }
+  .nav-links {
+    display: none;
+  }
+  .certified-doctors-area-card {
+    min-width: 40%;
+  }
+}
+
+@media screen and (max-width: 776px) {
+  .container {
+    padding: var(--padding-inline-section);
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  p {
+    font-family: "Roboto", sans-serif;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+  }
+
+  .primary-btn {
+    padding: 7px 20px;
+    font-size: 14px;
+  }
+  .secondary-btn {
+    padding: 7px 20px;
+    font-size: 14px;
+  }
+  .hero-wrapper {
+    flex-direction: column-reverse;
+    padding: 0px var(--padding-inline-section) 0px;
+  }
+  .hero-content {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  /* .hero-image img {
+    width: 90%;
+  } */
+  .our-service-wrapper {
+    margin-top: -70px;
+  }
+  .certified-doctors-wrapper {
+    margin-top: -50px;
+  }
+  .experience-doctors-wrappers,
+  .healthcare-wrapper {
+    flex-direction: column;
+    padding: var(--padding-inline-section);
+    margin-top: -70px;
+  }
+  .solution {
+    margin-top: 100px;
+  }
+  .experience-doctors-content {
+    align-items: center;
+  }
+  .experience-doctors-content h2 {
+    text-align: center;
+  }
+
+  .experience-doctors-content p {
+    text-align: center;
+  }
+
+  .healthcare-wrapper-content {
+    text-align: center;
+  }
+  .cta-left {
+    max-width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .cta-right img {
+    display: none;
+  }
+  .our-service-area {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .our-service-card {
+    min-width: 70%;
+  }
+
+  .solution-area-cards {
+    min-width: 70%;
+  }
+
+  .category-menu,
+  .about-menu {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 878px) {
+  .cta {
+    padding: var(--padding-inline-section);
+  }
+  .cta-left {
+    max-width: 100%;
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .cta-right img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .footer-wrapper {
+    flex-direction: column;
+  }
+  .footer-logo {
+    min-width: 90%;
+  }
+  .subscribe-newsletter {
+    min-width: 90%;
+  }
+
+  .sub-footer-wrapper {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
